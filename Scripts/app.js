@@ -1,3 +1,10 @@
+/* 
+File Name: app.js
+Author: Tarundeep Singh
+Website Adress: http://comp-1073-midterm.azurewebsites.net/
+Description: This file is a part of the midterm test for Comp-1073, It spits out text to the html and also displays user input into the console
+
+*/
 // setup your IIFE (Immediately Invoked Function Expression)
 var travelReport = (function () {
 
@@ -5,6 +12,8 @@ var travelReport = (function () {
 console.log("App Started...")
 
 })();
+
+// fuction containing the paragraph text and takes user input to the console
 
 ( function () {
 	
@@ -66,4 +75,5 @@ console.log("App Started...")
 		console.log("Comments:" + comments.value);
 	});
 	
+	console.log("App Finished...")
 })();
